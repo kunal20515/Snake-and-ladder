@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.tempo">
+   <children>
+      <ImageView fitHeight="95.0" fitWidth="105.0" layoutX="253.0" layoutY="636.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@6.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="mainBoard" fitHeight="800.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@new_bg.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="600.0" layoutX="-1.0" layoutY="615.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cc.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="highlight" fitHeight="75.0" fitWidth="448.0" layoutX="96.0" layoutY="660.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@player1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="dice" fitHeight="107.0" fitWidth="106.0" layoutX="248.0" layoutY="644.0" onMouseClicked="#mainMove" onMousePressed="#gifFun" onMouseReleased="#setImg" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="40.0" layoutX="283.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fill.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrowFrame" fitHeight="75.0" fitWidth="35.0" layoutX="283.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pointer.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="42.0" fitWidth="44.0" layoutX="14.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p1Token.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player2" fitHeight="42.0" fitWidth="42.0" layoutX="29.0" layoutY="606.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@p2Token.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="winP" fitHeight="326.0" fitWidth="384.0" layoutX="108.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="diwaliFrame" fitHeight="150.0" fitWidth="200.0" layoutX="35.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="diwaliFrame2" fitHeight="150.0" fitWidth="200.0" layoutX="418.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
