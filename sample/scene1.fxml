@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Main">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@scene1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="464.0" layoutX="68.0" layoutY="250.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cc.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="652.0" layoutX="69.0" layoutY="428.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cc.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="464.0" layoutX="68.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cc.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="477.0" layoutX="69.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cc.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="403.0" layoutX="99.0" layoutY="333.0" onMouseClicked="#switchToGame" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
